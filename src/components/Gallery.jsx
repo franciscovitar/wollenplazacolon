@@ -22,7 +22,15 @@ export default function Gallery() {
           {images.map((src, i) => (
             <motion.div key={src} className={styles.item} initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
               <div className={styles.imageWrap}>
-                <Image src={src} alt={`Imagen ${i+1} del espacio`} fill sizes="(max-width: 900px) 100vw, 33vw" className={styles.image} />
+                <Image 
+                  src={src} 
+                  alt={`Imagen ${i+1} del espacio`} 
+                  fill 
+                  sizes="(max-width: 900px) 100vw, 33vw" 
+                  className={styles.image}
+                  quality={70}
+                  loading="lazy"
+                />
               </div>
             </motion.div>
           ))}
