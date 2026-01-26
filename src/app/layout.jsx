@@ -16,7 +16,7 @@ export const metadata = {
     type: 'website'
   },
   icons: {
-    icon: '/images/favicon.svg'
+    icon: '/favicon.png'
   }
 };
 
