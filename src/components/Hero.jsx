@@ -8,10 +8,26 @@ export default function Hero() {
   return (
     <section id="inicio" className={styles.hero}>
       <div className={styles.bgImageDesktop}>
-        <Image src="/images/herohorizontal.jpg" alt="Wöllen helado suizo y cafetería" fill sizes="100vw" className={styles.image} priority />
+        <Image 
+          src="/images/herohorizontal.jpg" 
+          alt="Wöllen helado suizo y cafetería" 
+          fill 
+          sizes="100vw" 
+          className={styles.image} 
+          priority 
+          quality={75}
+        />
       </div>
       <div className={styles.bgImageMobile}>
-        <Image src="/images/herovertical.jpg" alt="Wöllen helado suizo y cafetería" fill sizes="100vw" className={styles.image} priority />
+        <Image 
+          src="/images/herovertical.jpg" 
+          alt="Wöllen helado suizo y cafetería" 
+          fill 
+          sizes="100vw" 
+          className={styles.image} 
+          priority 
+          quality={75}
+        />
       </div>
       <div className={styles.overlay} />
       <div className={`container ${styles.content}`}>
