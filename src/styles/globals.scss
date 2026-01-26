@@ -1,0 +1,122 @@
+/* Global Styles for Wöllen */
+:root {
+  --brown-900: #4E3227;
+  --brown-700: #743D29;
+  --brown-400: #A0786C;
+  --taupe-400: #988780;
+  --offwhite:  #EDECEA;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--offwhite);
+  color: var(--brown-900);
+  font-family: var(--font-poppins), system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji';
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.section {
+  padding: 36px 0;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.sectionSubtitle {
+  font-size: 16px;
+  color: var(--taupe-400);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 18px;
+  font-weight: 600;
+  transition: transform 240ms ease, background 240ms ease, color 240ms ease;
+}
+
+.btnPrimary {
+  background: var(--brown-700);
+  color: #fff;
+}
+.btnPrimary:hover { transform: translateY(-2px); }
+.btnPrimary:focus { outline: 3px solid #d8c0b7; outline-offset: 2px; }
+
+.btnSecondary {
+  background: #fff;
+  color: var(--brown-700);
+  border: 1px solid var(--brown-400);
+}
+.btnSecondary:hover { transform: translateY(-2px); }
+.btnSecondary:focus { outline: 3px solid #d8c0b7; outline-offset: 2px; }
+
+.card {
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(78, 50, 39, 0.08);
+}
+
+/* Anchor scroll spacing */
+[id] {
+  scroll-margin-top: 80px;
+}
+
+/* Utility */
+.visuallyHidden {
+  position: absolute !important;
+  height: 1px; width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (min-width: 900px) {
+  .section {
+    padding: 56px 0;
+  }
+  
+  .sectionTitle {
+    font-size: 40px;
+  }
+  
+  .sectionSubtitle {
+    font-size: 18px;
+  }
+}

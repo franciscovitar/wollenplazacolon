@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card { padding: 18px; }
+.card h3 { margin: 6px 0 8px; }
+.card p { color: var(--taupe-400); }
+
+.icon {
+  width: 40px; height: 40px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid rgba(0,0,0,0.06);
+  display: inline-flex; align-items: center; justify-content: center;
+  color: var(--brown-700);
+}
+
+.features {
+  margin: 10px 0 0;
+  padding-left: 18px;
+  color: var(--taupe-400);
+}
+.inlineIcon { color: var(--brown-700); display: inline-flex; vertical-align: middle; }
+
+@media (min-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+}

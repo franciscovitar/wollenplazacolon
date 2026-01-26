@@ -1,0 +1,16 @@
+.section { }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.card { padding: 18px; }
+.card h3 { margin: 0 0 8px; }
+.card p { color: var(--taupe-400); }
+
+@media (min-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+}

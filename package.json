@@ -1,0 +1,18 @@
+{
+  "name": "wollen-web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "^11.15.0",
+    "next": "^15.5.9",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-icons": "^5.4.0",
+    "sass": "^1.69.0"
+  }
+}
