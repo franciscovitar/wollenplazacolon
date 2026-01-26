@@ -28,7 +28,7 @@ export default function Gallery() {
                   fill 
                   sizes="(max-width: 900px) 100vw, 33vw" 
                   className={styles.image}
-                  quality={70}
+                  quality={75}
                   loading="lazy"
                 />
               </div>
