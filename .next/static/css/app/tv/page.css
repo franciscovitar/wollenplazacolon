@@ -1,0 +1,388 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/app/tv/page.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_tvPage__p6qOg {
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/ClearCacheButton.module.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ClearCacheButton_btn___CfLz {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 22px;
+  background: rgba(30, 30, 30, 0.85);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.ClearCacheButton_btn___CfLz:hover {
+  background: rgba(50, 50, 50, 0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
+}
+.ClearCacheButton_btn___CfLz:active {
+  transform: translateY(0);
+}
+.ClearCacheButton_btn___CfLz:disabled {
+  cursor: wait;
+  opacity: 0.8;
+}
+@media (max-width: 768px) {
+  .ClearCacheButton_btn___CfLz {
+    bottom: 24px;
+    right: 24px;
+    padding: 12px 18px;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 480px) {
+  .ClearCacheButton_btn___CfLz {
+    bottom: 16px;
+    right: 16px;
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+}
+
+.ClearCacheButton_spin__i7Zej {
+  animation: ClearCacheButton_spin__i7Zej 0.8s linear infinite;
+}
+
+@keyframes ClearCacheButton_spin__i7Zej {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/TVHero.module.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.TVHero_tvHero__iqqF2 {
+  height: 40vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TVHero_tvHero__iqqF2 .TVHero_heroContent__a2Xe_ {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.TVHero_tvHero__iqqF2 .TVHero_heroBg__iEY3U {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.TVHero_tvHero__iqqF2 .TVHero_heroBg__iEY3U::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.TVHero_tvHero__iqqF2 .TVHero_heroBg__iEY3U .TVHero_image__BoWZu {
+  object-fit: cover;
+}
+.TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: white;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  padding: 0 40px;
+}
+.TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -1px;
+  margin-bottom: 16px;
+}
+@media (max-width: 1024px) {
+  .TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut h1 {
+    font-size: 1.8rem;
+  }
+}
+.TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut p {
+  font-size: 1.5rem;
+  margin: 0;
+  opacity: 0.95;
+  font-weight: 300;
+}
+@media (max-width: 1024px) {
+  .TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut p {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .TVHero_tvHero__iqqF2 .TVHero_heroText__t1Yut p {
+    font-size: 0.9rem;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/TVVideoList.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.TVVideoList_videoListSection__p3pQ4 {
+  width: 100%;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f8f8f8 0%, #ffffff 100%);
+}
+.TVVideoList_videoListSection__p3pQ4 .TVVideoList_container__qrO4H {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.TVVideoList_videoListSection__p3pQ4 .TVVideoList_title__TMwNw {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 60px 0;
+  color: #1a1a1a;
+}
+@media (max-width: 1024px) {
+  .TVVideoList_videoListSection__p3pQ4 .TVVideoList_title__TMwNw {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .TVVideoList_videoListSection__p3pQ4 .TVVideoList_title__TMwNw {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 480px) {
+  .TVVideoList_videoListSection__p3pQ4 .TVVideoList_title__TMwNw {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+}
+.TVVideoList_videoListSection__p3pQ4 .TVVideoList_grid__EqpXQ {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 40px;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1024px) {
+  .TVVideoList_videoListSection__p3pQ4 .TVVideoList_grid__EqpXQ {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .TVVideoList_videoListSection__p3pQ4 .TVVideoList_grid__EqpXQ {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .TVVideoList_videoListSection__p3pQ4 .TVVideoList_grid__EqpXQ {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/VideoCard.module.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.VideoCard_card__CpJ4i {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  transition: all 0.3s ease;
+}
+.VideoCard_card__CpJ4i:hover {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+.VideoCard_card__CpJ4i:hover .VideoCard_playOverlay__2N_J7 {
+  opacity: 1;
+}
+.VideoCard_card__CpJ4i:focus {
+  outline: 3px solid #ff6b35;
+  outline-offset: 2px;
+}
+.VideoCard_card__CpJ4i .VideoCard_thumbnailContainer__6JYkS {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+.VideoCard_card__CpJ4i .VideoCard_thumbnailContainer__6JYkS .VideoCard_thumbnail__jBrBy {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.VideoCard_card__CpJ4i .VideoCard_thumbnailContainer__6JYkS .VideoCard_playOverlay__2N_J7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+}
+.VideoCard_card__CpJ4i .VideoCard_content__8ZIch {
+  padding: 24px;
+  flex: 1 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.VideoCard_card__CpJ4i .VideoCard_content__8ZIch h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+@media (max-width: 768px) {
+  .VideoCard_card__CpJ4i .VideoCard_content__8ZIch h3 {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 480px) {
+  .VideoCard_card__CpJ4i .VideoCard_content__8ZIch h3 {
+    font-size: 1.1rem;
+  }
+}
+.VideoCard_card__CpJ4i .VideoCard_content__8ZIch p {
+  margin: 0;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+@media (max-width: 768px) {
+  .VideoCard_card__CpJ4i .VideoCard_content__8ZIch p {
+    font-size: 0.95rem;
+  }
+}
+@media (max-width: 480px) {
+  .VideoCard_card__CpJ4i .VideoCard_content__8ZIch p {
+    font-size: 0.9rem;
+  }
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/VideoPlayer.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.VideoPlayer_videoContainer__MQ29P {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.VideoPlayer_videoContainer__MQ29P .VideoPlayer_video__KWeK9 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.VideoPlayer_videoContainer__MQ29P .VideoPlayer_closeBtn__5_a__ {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10000;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+.VideoPlayer_videoContainer__MQ29P .VideoPlayer_closeBtn__5_a__:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+.VideoPlayer_videoContainer__MQ29P .VideoPlayer_closeBtn__5_a__:active {
+  background: rgba(255, 255, 255, 0.4);
+}
+@media (max-width: 768px) {
+  .VideoPlayer_videoContainer__MQ29P .VideoPlayer_closeBtn__5_a__ {
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+  }
+  .VideoPlayer_videoContainer__MQ29P .VideoPlayer_closeBtn__5_a__ svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+@media (max-width: 480px) {
+  .VideoPlayer_videoContainer__MQ29P .VideoPlayer_closeBtn__5_a__ {
+    width: 45px;
+    height: 45px;
+    top: 15px;
+    right: 15px;
+  }
+  .VideoPlayer_videoContainer__MQ29P .VideoPlayer_closeBtn__5_a__ svg {
+    width: 20px;
+    height: 20px;
+  }
+}

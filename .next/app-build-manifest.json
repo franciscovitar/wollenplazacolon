@@ -6,16 +6,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/carta/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/carta/page.css",
-      "static/chunks/app/carta/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
-    "/api/menu/route": [
+    "/tv/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/api/menu/route.js"
+      "static/css/app/tv/page.css",
+      "static/chunks/app/tv/page.js"
     ]
   }
 }
