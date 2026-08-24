@@ -1,0 +1,317 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/app/carta/page.module.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_main__ZTjB4 {
+  background: var(--offwhite);
+}
+
+.page_header__bAKD4 {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(237, 236, 234, 0.9);
+  -webkit-backdrop-filter: saturate(120%) blur(6px);
+          backdrop-filter: saturate(120%) blur(6px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.page_headerInner__H14qS {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page_logo__c32sI {
+  width: 110px;
+  height: auto;
+}
+
+.page_title__decQZ {
+  font-size: 26px;
+  margin: 0 0 24px;
+}
+
+.page_stateMessage__qChqk {
+  padding: 2rem;
+  text-align: center;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.page_errorMessage__i_V7M {
+  padding: 1.5rem;
+  background: #ffe8e8;
+  border: 2px solid #ffb3b3;
+  border-radius: 8px;
+  color: #d32f2f;
+  margin-bottom: 1.5rem;
+}
+.page_errorMessage__i_V7M p {
+  margin: 0;
+}
+
+.page_emptyMessage__pyNYH {
+  padding: 2rem;
+  text-align: center;
+  color: #999;
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.page_lastUpdate__21lXv {
+  text-align: right;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
+.page_lastUpdate__21lXv small {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+  .page_title__decQZ {
+    font-size: 1.75rem;
+  }
+  .page_stateMessage__qChqk {
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+  .page_lastUpdate__21lXv {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .page_lastUpdate__21lXv small {
+    font-size: 0.8rem;
+  }
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/MenuSearch.module.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MenuSearch_searchContainer__HPA71 {
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+.MenuSearch_searchContainer__HPA71 .MenuSearch_input__DirmP {
+  width: 100%;
+  padding: 1rem 3rem 1rem 1.5rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.MenuSearch_searchContainer__HPA71 .MenuSearch_input__DirmP:focus {
+  outline: none;
+  border-color: #d4a574;
+  box-shadow: 0 0 0 3px rgba(212, 165, 116, 0.1);
+}
+.MenuSearch_searchContainer__HPA71 .MenuSearch_input__DirmP::placeholder {
+  color: #999;
+}
+.MenuSearch_searchContainer__HPA71 .MenuSearch_icon__GFFYd {
+  position: absolute;
+  right: 1.5rem;
+  color: #999;
+  pointer-events: none;
+}
+.MenuSearch_searchContainer__HPA71 .MenuSearch_clearBtn__Rvphp {
+  position: absolute;
+  right: 3.5rem;
+  background: none;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  transition: color 0.2s;
+}
+.MenuSearch_searchContainer__HPA71 .MenuSearch_clearBtn__Rvphp:hover {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .MenuSearch_searchContainer__HPA71 {
+    margin-bottom: 1.5rem;
+  }
+  .MenuSearch_searchContainer__HPA71 .MenuSearch_input__DirmP {
+    font-size: 16px;
+    padding: 0.875rem 2.75rem 0.875rem 1rem;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/CategoryChips.module.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CategoryChips_chipsContainer__fjFIW {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.CategoryChips_chip__rUF8k {
+  padding: 0.625rem 1.25rem;
+  border: 2px solid #e0e0e0;
+  background: white;
+  color: #333;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+.CategoryChips_chip__rUF8k:hover {
+  border-color: #743D29;
+  background: #f9f5f1;
+}
+.CategoryChips_chip__rUF8k.CategoryChips_active__SJZmF {
+  background: #743D29;
+  color: white;
+  border-color: #743D29;
+  box-shadow: 0 4px 12px rgba(116, 61, 41, 0.2);
+}
+
+@media (max-width: 768px) {
+  .CategoryChips_chipsContainer__fjFIW {
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .CategoryChips_chip__rUF8k {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[14].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[14].oneOf[7].use[5]!./src/components/MenuList.module.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.MenuList_menuContainer___cgb8 {
+  animation: MenuList_fadeIn__8zv_R 0.3s ease;
+}
+
+@keyframes MenuList_fadeIn__8zv_R {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.MenuList_categoriaSection__IhjWl {
+  margin-bottom: 3rem;
+}
+.MenuList_categoriaSection__IhjWl:last-child {
+  margin-bottom: 0;
+}
+
+.MenuList_categoriaTitulo__mOzH_ {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 3px solid #743D29;
+  display: inline-block;
+}
+
+.MenuList_subcategoriaSection__jCsVH {
+  margin-bottom: 2.5rem;
+}
+.MenuList_subcategoriaSection__jCsVH:last-child {
+  margin-bottom: 0;
+}
+
+.MenuList_subcategoriaTitulo__BfLTc {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 1.25rem;
+  margin-left: 0.5rem;
+}
+
+.MenuList_productosList__PYJ7y {
+  display: grid;
+  grid-gap: 1rem;
+  gap: 1rem;
+}
+
+.MenuList_productoItem__Il2VW {
+  padding: 1.25rem;
+  background: white;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.MenuList_productoItem__Il2VW:hover {
+  border-color: #d4a574;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.MenuList_productoHeader__qw1sa {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.MenuList_productoNombre__cpKou {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c2c2c;
+  margin: 0;
+  flex: 1 1;
+}
+
+.MenuList_precio__Tdd6T {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #743D29;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.MenuList_descripcion__WdQip {
+  font-size: 0.95rem;
+  color: #666;
+  margin: 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .MenuList_categoriaTitulo__mOzH_ {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .MenuList_subcategoriaTitulo__BfLTc {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+  .MenuList_productoItem__Il2VW {
+    padding: 1rem;
+  }
+  .MenuList_productoHeader__qw1sa {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .MenuList_precio__Tdd6T {
+    align-self: flex-start;
+  }
+  .MenuList_productoNombre__cpKou {
+    font-size: 1rem;
+  }
+  .MenuList_descripcion__WdQip {
+    font-size: 0.9rem;
+  }
+  .MenuList_categorySection__t4mHK {
+    margin-bottom: 2rem;
+  }
+  .MenuList_subcategoriaSection__jCsVH {
+    margin-bottom: 2rem;
+  }
+}
